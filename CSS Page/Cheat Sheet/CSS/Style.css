@@ -1,0 +1,53 @@
+/* reset
+*{
+  margin: 0;
+  padding: 0;
+}
+*/
+
+body{
+background-color: #f4f4f4;
+color: #009000;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: normal;
+
+/* same as above but shorter*/
+font: normal 16px Arial, Helvetica, sans-serif;
+
+line-height: 1.6em;
+margin: 0;
+}
+
+.box-1{
+  background-color: #333333;
+  color: #FFF;
+  border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-bottom: 5px red solid;
+  border-top: 5px red solid;
+
+/* same as above*/
+border: 5px red solid;
+border-width: 3px;
+border-bottom-width: 10px;
+border-top-style: dotted;
+
+
+border: 5px red solid;
+
+padding: 20px;
+
+margin: 20px;
+
+}
+
+.container{
+  width: 80%;
+  margin:auto;
+}
+
+.box-1 h1{
+  font-family: Tahoma;
+
+}
