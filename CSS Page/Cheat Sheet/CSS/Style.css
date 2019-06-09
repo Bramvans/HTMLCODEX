@@ -1,9 +1,30 @@
-/* reset
+/* reset start from zero
 *{
   margin: 0;
   padding: 0;
 }
 */
+
+.clr{
+  clear: both;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover{
+  color: red;
+}
+
+a:active{
+  color: green;
+}
+
+a:visited{
+  color: black;
+}
 
 body{
 background-color: #f4f4f4;
@@ -49,5 +70,123 @@ margin: 20px;
 
 .box-1 h1{
   font-family: Tahoma;
+font-style: italic;
+text-decoration: underline;
+}
 
+.box-2{
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin:  20px;
+}
+
+.categories{
+  border: 1px #ccc solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2{
+  text-align: center;
+}
+
+.categories ul{
+  padding: 20px;
+  list-style: circle;
+}
+
+.categories li{
+  padding-bottom: 6px;
+  border-bottom: dotted 1px #333;
+  list-style-image: url('check.png');
+}
+
+.my-form{
+  padding: 20px;
+
+}
+
+.my-form .form-group{
+  padding-bottom: 15px;
+}
+
+.my-form label{
+  display: block;
+}
+
+.my-form input[type = "text"], .my-form textarea{
+  padding: 8px;
+  width: 100%;
+}
+
+.button{
+  background-color: #333333;
+  color: #FFF;
+padding: 15px;
+}
+
+.button:hover{
+  background: red;
+  color: #fff;
+}
+
+.block{
+  float: left;
+  width: 33.3%;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+
+#main-block{
+  float: left;
+  width: 70%;
+  border: 1px dotted;
+  box-sizing: border-box;
+}
+
+#side-bar{
+  float: right;
+  width: 30%;
+  background-color: #333333;
+  color: #FFF;
+  padding: 15px;
+  border: 1px dotted;
+  box-sizing: border-box;
+}
+
+.p-box{
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  position: relative;
+  background-image: url("forrest.jpg");
+
+}
+
+.p-box h1{
+  top: 100px;
+  left: 100px;
+  position: absolute;
+}
+
+.fix-me{
+  color: white;
+  position: fixed;
+  top: 400px;
+}
+
+.mylist li:first-child{
+  background: red;
+}
+.mylist li:last-child{
+  background: blue;
+}
+
+.mylist li:nth-child(5){
+  background: yellow;
+}
+
+.mylist li:nth-child(even){
+  background: grey;
 }
